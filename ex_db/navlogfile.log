@@ -1,0 +1,104 @@
+2023-09-07 12:50:30,886 - root - DEBUG - test
+2023-09-07 12:50:30,886 - root - INFO - info test
+2023-09-07 12:50:30,886 - root - WARNING - warning test
+2023-09-07 12:50:30,886 - root - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\pythonProject\ex_db\test_logger.py", line 10, in test
+    result = a/b
+ZeroDivisionError: division by zero
+2023-09-07 12:59:17,203 - root - DEBUG - DEBUG message
+2023-09-07 12:59:17,203 - root - INFO - INFO message
+2023-09-07 12:59:17,203 - root - WARNING - WARNING message
+2023-09-07 12:59:17,222 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:59:17,223 - apscheduler.scheduler - INFO - Added job "insertnaver" to job store "default"
+2023-09-07 12:59:17,223 - apscheduler.scheduler - INFO - Scheduler started
+2023-09-07 12:59:17,223 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 12:59:17,223 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:10:00+09:00 (in 642.776222 seconds)
+2023-09-07 13:10:00,006 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:10:00,011 - apscheduler.executors.default - INFO - Running job "insertnaver (trigger: cron[minute='10'], next run at: 2023-09-07 13:10:00 KST)" (scheduled at 2023-09-07 13:10:00+09:00)
+2023-09-07 13:10:00,012 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 14:10:00+09:00 (in 3599.991341 seconds)
+2023-09-07 13:10:00,017 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:00,218 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=1&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:00,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:00,448 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=2&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:00,471 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:00,662 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=3&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:00,685 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:00,878 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=4&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:00,901 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:01,094 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=5&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:01,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:01,311 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=6&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:01,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:01,531 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=7&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:01,555 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:01,767 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=8&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:01,796 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:01,989 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=9&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:02,010 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:02,210 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=10&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:02,235 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:02,430 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=11&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:02,456 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:02,645 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=12&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:02,671 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:02,869 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=13&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:02,907 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:03,099 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=14&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:03,119 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:03,316 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=15&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:03,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:03,542 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=16&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:03,559 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:03,758 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=17&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:03,776 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:03,971 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=18&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:04,006 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:04,194 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=19&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:04,214 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:04,408 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=20&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:04,429 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:04,624 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=21&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:04,648 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:04,849 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=22&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:04,868 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:05,061 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=23&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:05,086 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:05,296 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=24&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:05,329 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:05,535 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=25&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:05,555 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:05,756 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=26&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:05,779 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:05,976 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=27&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:06,008 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:06,219 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=28&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:06,251 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:06,473 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=29&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:06,500 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:06,715 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=30&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:06,758 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:06,977 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=31&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:07,014 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:07,232 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=32&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:07,275 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:07,488 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=33&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:07,512 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:07,738 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=34&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:07,770 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:07,986 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=35&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:08,007 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:08,216 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=36&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:08,246 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:08,469 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=37&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:08,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:08,705 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=38&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:08,738 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:08,959 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=39&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:09,000 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:09,214 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=40&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:09,238 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:09,441 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=41&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:09,462 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:10:09,659 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=42&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:10:09,678 - apscheduler.executors.default - INFO - Job "insertnaver (trigger: cron[minute='10'], next run at: 2023-09-07 14:10:00 KST)" executed successfully

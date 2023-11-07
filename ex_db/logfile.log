@@ -1,0 +1,10 @@
+2023-09-07 10:39:07,746 - root - DEBUG - test
+2023-09-07 10:39:07,746 - root - INFO - info test
+2023-09-07 10:39:27,497 - root - DEBUG - test
+2023-09-07 10:39:27,497 - root - INFO - info test
+2023-09-07 10:39:27,497 - root - WARNING - warning test
+2023-09-07 10:39:27,497 - root - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\pythonProject\ex_db\test_logger.py", line 10, in test
+    result = a/b
+ZeroDivisionError: division by zero
